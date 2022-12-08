@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<!-- 	link css -->
+	<link rel="stylesheet" href="style.css">
+	<!-- 	 link fontawesome    -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<!-- Scroll To top Btn -->
+	<div class="box">
+		<i class="fa-solid fa-arrow-up"></i>
+	</div>
+	<!-- preloader -->
+	<div class="preloader">
+		<i class="fa-solid fa-circle-notch loading"></i>
+	</div>
+	<!-- Social Links -->
+	<div class="social-links">
+		<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		<a href="#"><i class="fa-brands fa-github"></i></a>
+		<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+	</div>
+	<!-- Top Bar -->
+	<header>
+		<nav>
+			<a href="#" class="logo">My<span>self</span></a>
+			<ul>
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#services">services</a></li>
+				<li><a href="#contact">contact</a></li>
+				<i class="fa-solid fa-search search-btn"></i>
+			</ul>
+			<i class="fa-solid fa-bars toggle-btn"></i>
+			<i class="fa-solid fa-moon theme-btn"></i>
+		</nav>
+		<div class="search-box">
+			<i class="fa-solid fa-search "></i>
+			<input type="search" placeholder="Search Here" />
+		</div>
+		<div class="sidebar">
+			<div class="search-bar">
+				<i class="fa-solid fa-search "></i>
+				<input type="search" placeholder="Search Here" />
+			</div>
+			<ul>
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#services">services</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- Home section -->
+	<section id="home">
+		<div class="justify-Center">
+			<h1 class="changing-text stroke"></h1>
+			<a href="#about"><i class="fa-solid fa-chevron-down go-down"></i></a>
+		</div>
+	</section>
+	<!-- About section -->
+	<section id="about">
+		<div class="container">
+			<div class="left-col">
+				<h1 class="heading">about</h1>
+				<div class="profile">
+					<img src="images/profile.jpg" alt="">
+				</div>
+			</div>
+			<div class="right-col">
+				<p class="description">If you believe in yourself and have dedication and pride - and never quit, you'll be a winner. The price of victory is high but so are the rewards.
+				</p>
+				<div class="skill-area">
+					<div class="skill">
+						<div class="title">
+							<p>html</p>
+							<p class="percentage"></p>
+						</div>
+						<div class="progress-bar">
+							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="title">
+							<p>css</p>
+							<p class="percentage"></p>
+						</div>
+						<div class="progress-bar">
+							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="title">
+							<p>javascript</p>
+							<p class="percentage"></p>
+						</div>
+						<div class="progress-bar">
+							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="title">
+							<p>React js</p>
+							<p class="percentage"></p>
+						</div>
+						<div class="progress-bar">
+							<div class="progress"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- service section -->
+	<section id="services">
+		<h1 class="heading">services</h1>
+		<div class="container">
+			<div class="grid-area">
+				<div class="grid">
+					<a href="#">
+						<h2>portfolio<br><span>site</span></h2>
+					</a>
+				</div>
+				<div class="grid">
+					<a href="#">
+						<h2>Ecommerce<br><span>site</span></h2>
+					</a>
+				</div>
+				<div class="grid">
+					<a href="#">
+						<h2>business<br><span>site</span></h2>
+					</a>
+				</div>
+				<div class="grid">
+					<a href="#">
+						<h2>books<br><span>site</span></h2>
+					</a>
+				</div>
+				<div class="grid">
+					<a href="#">
+						<h2>creative<br><span>site</span></h2>
+					</a>
+				</div>
+				<div class="grid">
+					<a href="#">
+						<h2>illustration<br><span>site</span></h2>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contact section -->
+	<section id="contact">
+		<h1 class="heading">contact</h1>
+		<div class="container">
+			<form action="#">
+				<div class="field name-field">
+					<div class="input-field ">
+						<input type="text" placeholder="Full Name" class="name" />
+					</div>
+					<div class="error-msg name-error">
+						<i class="fa-solid fa-circle-exclamation"></i>
+						<p>enter your full name</p>
+					</div>
+				</div>
+				<div class="field email-field">
+					<div class="input-field">
+						<input type="email" placeholder="Enter an email" class="email" />
+					</div>
+					<div class="error-msg email-error">
+						<i class="fa-solid fa-circle-exclamation"></i>
+						<p>enter a valid email</p>
+					</div>
+				</div>
+				<div class="field message-field">
+					<div class="input-field">
+						<input type="text" placeholder="Message" class="message" />
+					</div>
+					<div class="error-msg">
+						<i class="fa-solid fa-circle-exclamation"></i>
+						<p>Enter atleast 10 character</p>
+					</div>
+
+				</div>
+				<div class="button">
+					<input type="submit" value="send message">
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Footer Section -->
+	<footer>
+		<a href="#">@onlyfrontendwebsite</a>
+	</footer>
+	<!-- link javascript -->
+	<script src="script.js"></script>
+</body>
+
+</html>
